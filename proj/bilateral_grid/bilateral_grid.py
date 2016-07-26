@@ -274,7 +274,7 @@ def create_program(is_vectorize=True, approximation_file_name=""):
     
     return (program, locals())
 
-def main(approx_file="", output_directory=os.path.abspath('./output/'), input_directory=os.path.abspath('./input/'), kw0={}):
+def main(approx_file="", output_directory=os.path.abspath('./output/'), input_directory=os.path.abspath('../images/train/'), kw0={}):
     
     if not os.path.exists(output_directory):
         os.makedirs(output_directory)
