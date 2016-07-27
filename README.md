@@ -48,7 +48,7 @@ Next, retrieve the test set images:
 
 Finally, run the genetic algorithm autotuner (the "cross validation directory" is equivalent to the test set directory). For this test we will assume you are using the built-in median filter application (proj/median/median.py):
 
-    $ cd ../proj/ga
+    $ cd ../ga
     $ python ga.py median result_median -population_size 100 -generations 200 -run_final_generation 1 -cross_validation_directory ../images/test
 
 This writes to the output directory 'result_median'. Wait some time (hours to a day) until the genetic algorithm is finished. The special generation 100,000 in the output directory contains the final tuned program variants reported in the paper (including plots similar to Figures 5 and 6 in the paper in the file gen100000/visualize/mean_lab_relative.png).
