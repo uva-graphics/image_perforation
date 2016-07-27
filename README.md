@@ -3,6 +3,8 @@
 
 This is code from the paper "Image Perforation: Automatically Accelerating Image Pipelines by Intelligently Skipping Samples," by Liming Lou, Paul Nguyen, Jason Lawrence, Connelly Barnes, ACM Transactions on Graphics 2016 (ACM SIGGRAPH 2016).
 
+Project website: http://www.cs.virginia.edu/~connelly/project_pages/image_perforation/
+
 ## Platforms
 
 Linux and Mac are currently supported.
