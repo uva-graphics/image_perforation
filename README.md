@@ -64,7 +64,7 @@ The above command outputs the approximated C++ program source code and runs it t
 
 This project is licensed under the [MIT license](https://opensource.org/licenses/MIT):
 
-Copyright (c) 2014-2016 Connelly Barnes, Liming Lou, Paul Nguyen, Jason Lawrence, and other contributors
+Copyright (c) 2014-2016 Connelly Barnes, Liming Lou, Paul Nguyen, Jason Lawrence, and other contributors.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
