@@ -53,12 +53,12 @@ Finally, run the genetic algorithm autotuner. For this test we will assume you a
 
 This writes to the output directory 'result_median'. Wait some time (hours to a day) until the genetic algorithm is finished. The special generation 100,000 in the output directory contains the final tuned program variants reported in the paper (including plots similar to Figures 5 and 6 in the paper in the file gen100000/visualize/mean_lab_relative.png).
 
-Suppose you want to use one of the approximated program variants. Let us assume the main method of your app is configured similarly to that of the exemplars such as median.py, which accepts one of the .approx files output by the tuner as its first argument. Then you can just run your app on one of the final generation's approx files, e.g. for median:
+Suppose you want to use one of the approximated program variants. An approximated program variant is produced by combining the application with one of the .approx files in the tuner output directory. Let us assume the main method of your app is configured similarly to that of the exemplars such as median.py, which accepts one of the .approx files output by the tuner as its first argument. Then you can just run your app on one of the final generation's approx files, e.g. for median:
 
     $ cd ../proj/median
     $ python median.py ../ga/result_median/gen100000/indiv000.approx
 
-The above command outputs the approximated C++ program source code and runs it to obtain time used for each input image.
+The above command outputs the approximated C++ program source code corresponding to program variant 000, and runs it to obtain time used for each input image.
 
 ## License
 
